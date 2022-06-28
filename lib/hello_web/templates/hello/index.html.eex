@@ -1,0 +1,4 @@
+<section class="phx-hero">
+  <h1>Hello World, from Phoenix!</h1>
+  <%= link "Welcome Page!", to: Routes.hello_path(@conn, :show, "Matheus", surname: "Cruz", age: 30) %>
+</section>
